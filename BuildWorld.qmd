@@ -1,0 +1,13 @@
+---
+title: "Build Your Own World"
+format: html
+editor: visual
+---
+
+{{< video https://www.youtube.com/embed/4r4SRPzkf2c >}}
+
+This is my project for the UC Berkeley class CS 61B - Data Structures. It is fully built in Java and uses the Princeton Library Standard Draw. The code creates a fully pseduo-random world from scratch given any seed. Connecting each random "room" with a "hallway" is done randomly and uses an algorithm similar to the one used in the famous Leetcode problem Number of Islands (<https://leetcode.com/problems/number-of-islands/>) to determine when to stop. The world can be saved and loaded by creating a new file and using I/O. The goal of the game is to reach the "mountain" without getting eaten by the enemy. The enemy moves when you do and uses a shortest path algorithm to determine where to move.
+
+If you would like to see any of the code please email me using my information in the contact section. 
+
+[Return to Home Page](index.html)

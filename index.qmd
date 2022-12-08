@@ -1,26 +1,33 @@
 ---
 title: "Hello, I am Osmaan Mysorewala!"
-format: html
+format: 
+    html:
+        theme: morph
 editor: visual
 ---
 
-```{r}
-#| label: load-packages
-#| include: false
-
-library(tidyverse)
-library(palmerpenguins)
-```
-
-A little about me, I am a junior at UC Berkeley majoring in Data Science. A couple of my hobbies are video games and going rock climbing. Currently I'm also a software Engineering Intern at Rimble, a startup which is a company in the esports industry. Next summer I should hopefully be interning at Hewlett Packard Enterprise. If you're interested in some of my other experiences here is my LinkedIn: <https://www.linkedin.com/in/omysorewala/>.
+A little about me, I am a junior at UC Berkeley majoring in Data Science. A couple of my hobbies are video games and going rock climbing. Currently I'm also a software Engineering Intern at Rimble, a startup which is a company in the esports industry. Next summer I will be interning at Hewlett Packard Enterprise. If you're interested in some of my other experiences here is my LinkedIn: <https://www.linkedin.com/in/omysorewala/>.
 
 ## Welcome to my website!
 
 Here you can see some of the projects I've worked on. 
 
-## Showcased Project
+## Showcased Project!
 
 {{< video https://www.youtube.com/embed/4r4SRPzkf2c >}}
 
-This is my project for the UC Berkeley class CS 61b. Learn more about it by clicking the link to it on the side!
+This is my project for the UC Berkeley class CS 61B - Data Structures. Learn more about it by clicking the link to it on the side!
 
+## Contact Me!
+
+Phone: 513-899-1799
+
+Email: osmaanmy@berkeley.edu
+
+## Projects
+
+[Build Your Own World](BuildWorld.html)
+
+## Source Code
+
+Follow this link for the source code of this website: <https://github.com/Omyso/Omyso.github.io>
