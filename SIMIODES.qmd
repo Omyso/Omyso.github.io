@@ -1,10 +1,70 @@
 ---
 title: "SCUDEM - Throw The Bike Or Throw The Race "
+jupyter: python3
 ---
 
 {{< video https://www.youtube.com/embed/ayXb5HI_fiQ >}}
 
 This is my partner's and my submission for the competition SCUDEM - SIMIODE Challenge Using Differential Equations Modeling (<https://qubeshub.org/community/groups/scudem>). The problem statement can be found below, but the general goal was to create a physics-based differential equation model that could properly determine the ideal moment to perform a [bike throw](<https://www.bicycling.com/training/a20017965/how-to-outsprint-the-competition-with-a-bike-throw/>) in a race. The video above describes our approach for creating the differential equation as well at the answer to the questions posed in the problem statement.
+
+## Code
+
+```{python}
+from numpy import *
+from numpy import array
+from pylab import *
+
+x=0
+vr=float(input("Enter the velocity of rider after the throw: "))
+vx=11*12-10*vr
+y_0=array([x,vx])
+
+def RK2(f,a,b,y0,step):
+    t=linspace(a,b,step)  #set t as array from a to be with steps
+    h=t[1]-t[0] #step size
+    Y=[y0] #set Y as initial conditions
+    N=len(t)
+    n=0
+    y=y0
+    while n<=N-2 :
+        y_rk2=y+h*0.5*f(y,t[n])    
+        y=y+h*f(y_rk2,t[n]+h*0.5)
+        Y.append(y)
+        n=n+1    #midpoint method , repeat for every steps
+    Y=array(Y)
+    return Y,t
+
+def throw(y,t):
+    m=77
+    rho=1.23
+    cd=0.88
+    A=0.36
+    g=9.8
+    ck=0.004
+    a=(-1*rho*cd*A/(2*m))*((y[1])**2)-(g*ck)  #DE equation
+    v=y[1]
+    f=array([v,a])
+    return f
+
+def nonthrow(t):
+    y=12*t  
+    return y
+
+
+a=RK2(throw,0,1,y_0,1000)   #number of step is 1000 between 0s to 1s
+X=a[0][:,0]
+t=a[1]
+plot(t,X)
+axis([0, 0.2, 0, 1])
+X2=nonthrow(t)
+plot(t,X2,'-')
+
+legend(['Throw','Nonthrow'])
+xlabel('t')
+ylabel('x')
+title ('problem 2')
+show()
+```
 
 ## Problem Statement
 
