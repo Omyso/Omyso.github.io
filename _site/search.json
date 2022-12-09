@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "",
+    "text": "A little about me, I am a junior at UC Berkeley majoring in Data Science. A couple of my hobbies are video games and going rock climbing. Currently I’m also a software Engineering Intern at Rimble, a startup which is a company in the esports industry. Next summer I will be interning at Hewlett Packard Enterprise. If you’re interested in some of my other experiences here is my LinkedIn: https://www.linkedin.com/in/omysorewala/."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Welcome to my website!",
+    "text": "Welcome to my website!\nHere you can see some of the projects I’ve worked on."
+  },
+  {
+    "objectID": "index.html#showcased-project",
+    "href": "index.html#showcased-project",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Showcased Project!",
+    "text": "Showcased Project!\n\nThis is my project for the UC Berkeley class CS 61B - Data Structures. Learn more about it by clicking the link to it on the side!"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Contact Me!",
+    "text": "Contact Me!\nPhone: 513-899-1799\nEmail: osmaanmy@berkeley.edu"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Projects",
+    "text": "Projects\nBuild Your Own World"
+  },
+  {
+    "objectID": "index.html#source-code",
+    "href": "index.html#source-code",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Source Code",
+    "text": "Source Code\nFollow this link for the source code of this website: https://github.com/Omyso/Omyso.github.io"
+  },
+  {
+    "objectID": "BuildWorld.html",
+    "href": "BuildWorld.html",
+    "title": "Build Your Own World",
+    "section": "",
+    "text": "This is my project for the UC Berkeley class CS 61B - Data Structures. It is fully built in Java and uses the Princeton Library Standard Draw. The code creates a fully pseduo-random world from scratch given any seed. Connecting each random “room” with a “hallway” is done randomly and uses an algorithm similar to the one used in the famous Leetcode problem Number of Islands (https://leetcode.com/problems/number-of-islands/) to determine when to stop. The world can be saved and loaded by creating a new file and using I/O. The goal of the game is to reach the “mountain” without getting eaten by the enemy. The enemy moves when you do and uses a shortest path algorithm to determine where to move.\nIf you would like to see any of the code please email me using my information in the contact section."
+  },
+  {
+    "objectID": "SIMIODES.html",
+    "href": "SIMIODES.html",
+    "title": "SCUDEM - Throw The Bike Or Throw The Race",
+    "section": "",
+    "text": "This is my partner’s and my submission for the competition SCUDEM - SIMIODE Challenge Using Differential Equations Modeling (https://qubeshub.org/community/groups/scudem). The problem statement can be found below, but the general goal was to create a physics-based differential equation model that could properly determine the ideal moment to perform a bike throw in a race. The video above describes our approach for creating the differential equation as well at the answer to the questions posed in the problem statement."
+  },
+  {
+    "objectID": "SIMIODES.html#problem-statement",
+    "href": "SIMIODES.html#problem-statement",
+    "title": "SCUDEM - Throw The Bike Or Throw The Race",
+    "section": "Problem Statement",
+    "text": "Problem Statement\nIn the 2021 Brabantse Pijl Dames bicycle race, sprinter Demi Vollering was leading the race but lost when Ruth Winder came from behind at the last moment[1,2]. Demi Vollering begun to celebrate too soon when Ruth Winder pushed her bike forward (known as a “bike throw” [3]), her front wheel crossed the finish line millimeters ahead of Vollering’s wheel. The finish of the race was so close that most people, including Winder, assumed that Vollering won. It was not until after the official finish line records were reviewed that Winder was declared the winner.\nThe source of confusion was described by a reporter, Mikkel Conde, who said, “I’m trying to wrap my head around how it’s possible to be ahead right before the line, lose on the line and then immediately be ahead again right after the line.” [1] In this case the “line” consists of two wide white lines on either side of the official finish line. From photographs taken by press officials Vollering appeared to be ahead at the start of the first white line and ahead at the end of the second white line. At the official finish line between them, though, Winder was ahead.\nThis example highlights how important the bike throw can be at the finish of a bike race. The question your team should explore through use of a mathematical model is to determine just how precise the timing must be for the bike throw to be effective. When should a rider stop pedaling and shift her weight backwards to thrust the bike forward? What is the best position for the cyclist and what are the trade-offs for a more precarious hand position that might provide more movement at the expense of less control? Also, what is the time interval that a professional cyclist must exploit for this move to be effective? Additionally, what is the maximum amount of time that can be made up? You should keep in mind that professional cyclists are moving at a speed where friction can be considerable which may impact the timing when the rider should stop pedaling and thrust the bicycle forward"
+  }
+]

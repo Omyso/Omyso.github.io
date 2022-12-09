@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "",
+    "text": "A little about me, I am a junior at UC Berkeley majoring in Data Science. A couple of my hobbies are video games and going rock climbing. Currently I’m also a software Engineering Intern at Rimble, a startup which is a company in the esports industry. Next summer I will be interning at Hewlett Packard Enterprise. If you’re interested in some of my other experiences here is my LinkedIn: https://www.linkedin.com/in/omysorewala/."
+  },
+  {
+    "objectID": "index.html#welcome-to-my-website",
+    "href": "index.html#welcome-to-my-website",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Welcome to my website!",
+    "text": "Welcome to my website!\nHere you can see some of the projects I’ve worked on."
+  },
+  {
+    "objectID": "index.html#showcased-project",
+    "href": "index.html#showcased-project",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Showcased Project!",
+    "text": "Showcased Project!\n\nThis is my project for the UC Berkeley class CS 61B - Data Structures. Learn more about it by clicking the link to it on the side!"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Contact Me!",
+    "text": "Contact Me!\nPhone: 513-899-1799\nEmail: osmaanmy@berkeley.edu"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Projects",
+    "text": "Projects\nBuild Your Own World"
+  },
+  {
+    "objectID": "index.html#source-code",
+    "href": "index.html#source-code",
+    "title": "Hello, I am Osmaan Mysorewala!",
+    "section": "Source Code",
+    "text": "Source Code\nFollow this link for the source code of this website: https://github.com/Omyso/Omyso.github.io"
+  }
+]
