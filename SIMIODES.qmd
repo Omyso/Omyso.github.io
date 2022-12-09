@@ -5,17 +5,31 @@ jupyter: python3
 
 {{< video https://www.youtube.com/embed/ayXb5HI_fiQ >}}
 
-This is my partner's and my submission for the competition SCUDEM - SIMIODE Challenge Using Differential Equations Modeling (<https://qubeshub.org/community/groups/scudem>). The problem statement can be found below, but the general goal was to create a physics-based differential equation model that could properly determine the ideal moment to perform a [bike throw](<https://www.bicycling.com/training/a20017965/how-to-outsprint-the-competition-with-a-bike-throw/>) in a race. The video above describes our approach for creating the differential equation as well at the answer to the questions posed in the problem statement.
+This is my partner's and my submission for the competition SCUDEM - SIMIODE Challenge Using Differential Equations Modeling (<https://qubeshub.org/community/groups/scudem>). The problem statement can be found at the bottom of the page, but the general goal was to create a physics-based differential equation model that could properly determine the ideal moment to perform a [bike throw](<https://www.bicycling.com/training/a20017965/how-to-outsprint-the-competition-with-a-bike-throw/>) in a race. The video above describes our approach for creating the differential equation as well at the answer to the questions posed in the problem statement.
 
-## Code
+## Differential Equation
+```{python}
+from IPython.display import display
+import sympy as sy
+
+sy.init_printing()  
+
+t,m,g,rho,C,A,mu = sy.symbols("t,m,g,rho,C,A,mu" )
+x = sy.Function('x')
+
+Eq1 = sy.Eq(sy.diff(x(t), t, 2) + (0.5*rho*C*A*pow(sy.diff(x(t), t, 1), 2))/m + mu*g, 0)
+display(Eq1)
+```
+
+## Plot
 
 ```{python}
 from numpy import *
-from numpy import array
-from pylab import *
+from matplotlib import *
+from matplotlib.pyplot import *
 
 x=0
-vr=float(input("Enter the velocity of rider after the throw: "))
+vr= 11.99
 vx=11*12-10*vr
 y_0=array([x,vx])
 
@@ -62,9 +76,11 @@ plot(t,X2,'-')
 legend(['Throw','Nonthrow'])
 xlabel('t')
 ylabel('x')
-title ('problem 2')
+title ('Throw vs Non-throw')
 show()
 ```
+
+This shows how small of a difference the bike throw makes, but it can still be a winning move
 
 ## Problem Statement
 
