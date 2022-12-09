@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Hello, I am Osmaan Mysorewala!",
     "section": "",
-    "text": "A little about me, I am a junior at UC Berkeley majoring in Data Science. A couple of my hobbies are video games and going rock climbing. Currently I’m also a software Engineering Intern at Rimble, a startup which is a company in the esports industry. Next summer I will be interning at Hewlett Packard Enterprise. If you’re interested in some of my other experiences here is my LinkedIn: https://www.linkedin.com/in/omysorewala/."
+    "text": "A little about me, I am a junior at UC Berkeley majoring in Data Science. Currently I’m also a software Engineering Intern at Rimble, a startup which is a company in the esports industry. Next summer I will be interning at Hewlett Packard Enterprise. A couple of my hobbies are video games and going rock climbing.\nIf you’re interested in some of my other experiences here is my LinkedIn: https://www.linkedin.com/in/omysorewala/."
   },
   {
     "objectID": "index.html#welcome-to-my-website",
@@ -39,7 +39,14 @@
     "href": "index.html#source-code",
     "title": "Hello, I am Osmaan Mysorewala!",
     "section": "Source Code",
-    "text": "Source Code\nFollow this link for the source code of this website: https://github.com/Omyso/Omyso.github.io"
+    "text": "Source Code\nFollow this link for the source code of the website: https://github.com/Omyso/Omyso.github.io"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Resume"
   },
   {
     "objectID": "SIMIODES.html",

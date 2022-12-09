@@ -12,6 +12,9 @@ website:
         contents: 
           - BuildWorld.qmd
           - SIMIODES.qmd
+      - section: "Resme"
+        contents:
+          - resume.qmd
 
 format: 
     html:
