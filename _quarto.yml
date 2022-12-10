@@ -12,7 +12,11 @@ website:
         contents: 
           - BuildWorld.qmd
           - SIMIODES.qmd
-      - section: "Resme"
+          - GameOfLife.qmd
+          - text: Cal Hacks 9.0
+            url:  https://devpost.com/software/asl-quick-learn
+            
+      - section: "Resume"
         contents:
           - resume.qmd
 
