@@ -4,7 +4,7 @@ title: "Conway's Game of Life"
 
 ## Version on PyBadge
 
-![](IMG-3482.gif)
+{{< video https://www.youtube.com/embed/m9PuoQu1-i0 >}}
 
 I initially coded [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) on a PyBadge using CircuitPython. The Game of Life uses simple rules to take an inital "population" and capture its state at each frame. The video above shows the Penta-Decathlon which is an infinitely repeating pattern with a period of 15.
 
